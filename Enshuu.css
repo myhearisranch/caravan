@@ -15,28 +15,39 @@
 }
 .main{
     height: 1400px;
-    width: 100%;
-    background-color: green;
+    width: 960px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+   
 }
+/* 横のbarのheightやwidthは、デザイン通りに記述する
+display: flex;
+justify-content: center; 
+で、横並びにさせる*/
+
 .left-bar{
     background-color: palegreen;
-    height: 230px;
+    height: 1400px;
+    width: 230px;
 }
-.main{
-    background-color: green;
-    height: 500px;
+.blog{
+    background-color:limegreen;
+    height: 1400px;
+    width: 500px;
 }
-.rigt-bar{
+.right-bar{
     background-color: palegreen;
-    height: 230px;
+    width: 230px;
+    height: 1400px;
+   
 }
 .footer{
     height: 100px;
     background-color: blue;
 }
+
+
 /* 
 解答 */
 /* * {
